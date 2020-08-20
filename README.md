@@ -1,4 +1,10 @@
 # Arsw-Lab2
+
+## Estudiantes
+
+  - Juan Camilo Angel Hernandez
+  - Nicolas Aguilera Contreras
+  
 ## Part I - Before finishing class
 
 Thread control with wait/notify. Producer/consumer
