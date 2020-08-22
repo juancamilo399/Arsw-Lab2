@@ -5,7 +5,39 @@
   - Juan Camilo Angel Hernandez
   - Nicolas Aguilera Contreras
   
+## Getting Started
+
+The following instructions will allow you to have a copy of the project and run it on your machine.
+
+### Prerequisites
+
+* [Maven](https://maven.apache.org/) - Dependency Management
+* [Java 8](https://www.oracle.com/co/java/technologies/javase/javase-jdk8-downloads.html) -  Development Environment 
+* [Git](https://git-scm.com/) - Version Control System
+  
 ## Part I - Before finishing class
+
+### Installing
+
+1. Clone the repository
+
+```
+git clone https://github.com/juancamilo399/SparkWebMean.git
+```
+
+2. Compile the projet
+
+```
+go to \IMMORTALS
+
+mvn package
+```
+
+3. Executing the program
+
+```
+mvn exec:java -D "exec.mainClass"="edu.eci.arst.concprg.prodcons.StartProduction"
+```
 
 Thread control with wait/notify. Producer/consumer
 
