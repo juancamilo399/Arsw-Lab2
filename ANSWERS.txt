@@ -1,0 +1,2 @@
+Sí puede generar una condición de carrera en un instante de tiempo en el que se elimine algún mortal de la simulación y en el mismo momento se esté consultando de la lista de jugadores.
+Utilizando 100 y 1000 inmortales el programa corre correctamente manteniendo el invariante. Sin embargo , al utilizar 10000 inmortales se sufre un impacto en el rendimiento del programa debido al consumo de CPU que se produce al acceder de manera compartida a la lista de inmortales y realizar validaciones constantes sobre ella.
