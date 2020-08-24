@@ -25,17 +25,17 @@ public class Consumer extends Thread {
     @Override
     public void run() {
         while (true) {
-            synchronized (this) {
+            synchronized (queue) {
                 while (queue.size() == 0) {
                     try {
-                        wait();
+                        queue.wait();
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
                 }
                 int number=queue.poll();
                 System.out.println("Consumer consumes "+number);
-                notify();
+                queue.notify();
             }
 
             try {
